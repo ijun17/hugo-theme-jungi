@@ -1,15 +1,14 @@
-- category: example
+- category: Himenaeos
   sub:
-    - category: example directory \\ directory-example
-- category: directory
-  sub:
-    - category: 1
+    - category: Lorem Ipsum
       sub:
-        - category: 1-1
-          sub:
-            - category: 1-1-1
-            - category: 1-1-2
-        - category: 1-2
-          sub:
-            - category: 1-2-1
-            - category: 1-2-2
+        - category: Lorem Ipsum  \\ directory-example
+        - category: odor amet
+        - category: consectetuer
+    - category: dolor
+    - category: consectetuer
+- category: fringilla
+  sub:
+    - category: Lorem Ipsum
+    - category: dolor
+    - category: consectetuer

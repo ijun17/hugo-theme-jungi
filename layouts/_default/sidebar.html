@@ -10,13 +10,15 @@
   <div class="profile" onclick="Navigation.toggleRotate(event)">
     <div class="front">
       <div class="profile-name">
-        <a class="post-link" href="/">Jungi Kim</a>
+        <a class="post-link" href="/">{{ site.Params.author_name }}</a>
       </div>
     </div>
     <div class="back">
-      github: ijun17
-      <br />
-      email: ijun17@naver.com
+      <div>
+        {{ range site.Params.author_bio }}
+        <div>{{ . }}</div>
+        {{ end }}
+      </div>
     </div>
   </div>
 

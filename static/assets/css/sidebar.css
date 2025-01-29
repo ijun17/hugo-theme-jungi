@@ -95,7 +95,6 @@
 }
 
 .sidebar > .rotate {
-  /* transform: rotateX(180deg); */
   transform: rotateY(180deg);
 }
 
@@ -116,13 +115,7 @@
 .sidebar-nav {
   padding: 10px;
   background-color: var(--post-background);
-  /* opacity: 0.5;
-  transition: opacity 0.2s ease 0s; */
 }
-
-/* .sidebar-nav:hover {
-  opacity: 1;
-} */
 
 .nav-navbar-title-wrapper {
   display: flex;

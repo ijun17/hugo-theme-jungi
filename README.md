@@ -35,6 +35,10 @@ Add the settings below to `./hugo.toml`
 ```toml
 theme = "jungi"
 
+[params]
+  author_name = "your name"
+  author_bio = ["your bio 1", "...", "your bio n"]
+
 [markup]
   [markup.highlight]
     noClasses = false

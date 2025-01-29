@@ -22,12 +22,12 @@ weight = 30
     extended = false
     min = "0.116.0"
 
+[params]
+  author_name = "Jungi Kim"
+  author_bio = ["github: ijun17", "email: ijun17@naver.com"]
 
-
-# add to "project_root/hugo.toml"
 [markup]
   [markup.highlight]
     noClasses = false
 
-# add to "project_root/hugo.toml"
 disableKinds = ["taxonomy", "taxonomyTerm"]
