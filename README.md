@@ -1,5 +1,7 @@
 # Theme Name: jungi
 
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/ef9b9841-6835-4eb8-987f-65090c8aa735" />
+
 ## Features
 
 - Hierarchical navigation bar
