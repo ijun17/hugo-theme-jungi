@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <div class="post-info" 
+        data-dir="{{ .Params.categories  }}" 
+        data-title="{{ .Title | htmlEscape }}" 
+        data-date="{{ .Date | time.Format "2006. 1. 2." }}">
+    </div>
+    {{ .Content }}
+{{ end }}

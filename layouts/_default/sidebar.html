@@ -1,0 +1,24 @@
+<label for="sidebar_button" class="sidebar-button">
+  <div></div>
+  <div></div>
+  <div></div>
+</label>
+<input type="checkbox" id="sidebar_button" style="display: none" />
+<label for="sidebar_button" class="sidebar-overlay"></label>
+
+<div class="sidebar">
+  <div class="profile" onclick="Navigation.toggleRotate(event)">
+    <div class="front">
+      <div class="profile-name">
+        <a class="post-link" href="/">Jungi Kim</a>
+      </div>
+    </div>
+    <div class="back">
+      github: ijun17
+      <br />
+      email: ijun17@naver.com
+    </div>
+  </div>
+
+  {{ partial "nav.html" . }}
+</div>

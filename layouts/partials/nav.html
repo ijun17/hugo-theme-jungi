@@ -1,0 +1,19 @@
+<div class="sidebar-nav">
+    <!--navbar tabs-->
+    <div class="nav-navbar-title-wrapper">
+        {{ range .Site.Data.directory }}
+        {{ $categoryname := strings.TrimSpace (index (first 1 (split .category "\\")) 0) }}
+        <div class="navbar-title" data-navbar="{{ $categoryname }}">{{ .category }}</div>
+        {{ end }}
+    </div>
+
+    <!--navbar subs-->
+    <div class="nav-navbar-wrapper">
+        {{ range .Site.Data.directory }}
+        {{ $categoryname := strings.TrimSpace (index (first 1 (split .category "\\")) 0) }}
+        <div class="navbar" data-navbar="{{ $categoryname }}">
+            {{ partial "nav-sub.html" (dict "navigation" .) }}
+        </div>
+        {{ end }}
+    </div>
+</div>

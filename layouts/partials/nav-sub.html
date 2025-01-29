@@ -1,0 +1,17 @@
+{{ $sub := .navigation.sub }}
+{{ with index .navigation "sub" }}
+    {{ range $sub }}
+        {{ $categoryname :=  strings.TrimSpace (index (first 1 (split .category "\\")) 0) }}
+        <div class="navbar-folder">{{ $categoryname }}</div>
+        <div class="navbar-folder-box" data-category="{{ $categoryname }}">
+            {{ partial "nav-sub.html" (dict "navigation" .) }}
+        </div>
+    {{ end }}
+{{ else }}
+    {{ $categoryname :=  strings.TrimSpace (index (last 1 (split .navigation.category "\\")) 0) }}
+    {{ if $categoryname }}
+        <ul>
+            {{ partial "categorizedPosts.html" (dict "category" $categoryname) }}
+        </ul>
+    {{ end }}
+{{ end }}

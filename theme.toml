@@ -1,0 +1,19 @@
+name = 'jungi'
+license = 'MIT'
+licenselink = 'https://github.com/ijun17/hugo-theme/LICENSE'
+description = 'jungi theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/ijun17/ijun17.github.io'
+
+# If you have a running demo of the theme
+demosite = 'https://ijun17.github.io/'
+
+# Taxonomy terms
+tags = ['blog', 'company']
+features = ['some', 'awesome', 'features']
+
+# If the theme has a single author
+[author]
+  name = 'Jungi Kim'
+  homepage = 'https://ijun17.github.io/'

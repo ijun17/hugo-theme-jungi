@@ -1,0 +1,15 @@
+- category: example
+  sub:
+    - category: example directory \\ directory-example
+- category: directory
+  sub:
+    - category: 1
+      sub:
+        - category: 1-1
+          sub:
+            - category: 1-1-1
+            - category: 1-1-2
+        - category: 1-2
+          sub:
+            - category: 1-2-1
+            - category: 1-2-2
