@@ -207,10 +207,11 @@ thead {
 
 code {
   padding: 1px 3px;
-  font-family: var(--code-font);
+  font-family: var(--base-font);
+  font-weight: bold;
+  font-size: 0.9em;
   background-color: #f4f4f4;
   color: var(--text-highlight-color);
-  font-weight: bold;
   border-radius: 5px;
 }
 
